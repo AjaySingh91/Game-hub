@@ -5,7 +5,7 @@ import GenreList from '../components/GenreList'
 import PlatformSelector from '../components/PlatformSelector'
 import SortSelector from '../components/SortSelector'
 import { useState } from 'react'
-import { GameQuery } from '../pages/layout'
+import { GameQuery } from '../pages/Layout'
 
 const HomePAge = () => {
   const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery);
